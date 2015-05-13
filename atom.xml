@@ -4,7 +4,7 @@
   <title><![CDATA[SUNFC]]></title>
   <link href="http://monster-sun.github.io/atom.xml" rel="self"/>
   <link href="http://monster-sun.github.io/"/>
-  <updated>2015-05-12T17:29:23+08:00</updated>
+  <updated>2015-05-13T18:34:46+08:00</updated>
   <id>http://monster-sun.github.io/</id>
   <author>
     <name><![CDATA[sunfc]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Title]]></title>
+    <link href="http://monster-sun.github.io/blog/2015/05/13/title/"/>
+    <updated>2015-05-13T18:34:06+08:00</updated>
+    <id>http://monster-sun.github.io/blog/2015/05/13/title</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[第一个Octopress博客]]></title>

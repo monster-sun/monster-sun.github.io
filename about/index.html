@@ -9,7 +9,7 @@
   <meta name="author" content="sunfc">
 
   
-  <meta name="description" content=" About May 12th, 2015 4:46 pm May 12th, 2015 4:46 pm Tweet ﻿ 文章分类 Recent Posts 第一个Octopress博客 ">
+  <meta name="description" content=" About May 12th, 2015 4:46 pm May 12th, 2015 4:46 pm Tweet ﻿ Categories {% category_list %} Recent Posts Title 第一个Octopress博客 ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -109,14 +109,18 @@
 
 <aside class="sidebar">
   
-    ﻿<section> 
-  <h1>文章分类</h1> 
-  <ul id="categories"> 
-     
-  </ul> 
+    ﻿<section>
+  <h1>Categories</h1>
+  <ul id="categories">
+    {% category_list %} 
+  </ul>
 </section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/05/13/title/">Title</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/05/12/title/">第一个Octopress博客</a>
