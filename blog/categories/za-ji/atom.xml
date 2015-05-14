@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[SUNFC]]></title>
-  <link href="http://monster-sun.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 杂记 | SUNFC]]></title>
+  <link href="http://monster-sun.github.io/blog/categories/za-ji/atom.xml" rel="self"/>
   <link href="http://monster-sun.github.io/"/>
   <updated>2015-05-14T17:15:18+08:00</updated>
   <id>http://monster-sun.github.io/</id>
@@ -39,18 +39,11 @@
 
 <p>使用Backtick Code Blocks：</p>
 
-<figure class='code'><figcaption><span>Hello World  </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="cp">#include&lt;stdio.h&gt;                       </span>
-</span><span class='line'><span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
-</span><span class='line'>     <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello World!&quot;</span><span class="p">);</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p></p>
+<pre><code class="c Hello World  ">#include&lt;stdio.h&gt;                       
+int main(){            
+     printf("Hello World!");
+}
+</code></pre>
 
 <p>使用基本方法：</p>
 
