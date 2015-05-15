@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 教程 | SUNFC]]></title>
+  <link href="http://monster-sun.github.io/blog/categories/jiao-cheng/atom.xml" rel="self"/>
+  <link href="http://monster-sun.github.io/"/>
+  <updated>2015-05-15T23:41:54+08:00</updated>
+  <id>http://monster-sun.github.io/</id>
+  <author>
+    <name><![CDATA[sunfc]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Android学习初始关于sdk的安装]]></title>
+    <link href="http://monster-sun.github.io/blog/2015/05/15/sdk-install/"/>
+    <updated>2015-05-15T22:26:49+08:00</updated>
+    <id>http://monster-sun.github.io/blog/2015/05/15/sdk-install</id>
+    <content type="html"><![CDATA[<h2>sdk快速安装方法</h2>
+
+<p>&#160;&#160;&#160;&#160;&#160;&#160;刚开始安装eclipse的时候一切顺利，然后本地安装adt等也是很简单的事情，一路顺风。。。</p>
+
+<p>&#160;&#160;&#160;&#160;&#160;&#160;直到安装sdk的时候出现了点问题，由于网上大多数救急办法最后在我看来真的是纯粹的房费时间，所以自己顺便也记录一下，留待以后回顾.</p>
+
+<p>&#160;&#160;&#160;&#160;&#160;&#160;首先我在安装的时候：下载sdk => 解压 => 点击sdk manager => 会出现自动查找，然后一般应该选择版本安装，但是有个最大的问题就是我们大多数地方访问不了sdk默认的更新地址。。。</p>
+
+<p>&#160;&#160;&#160;&#160;&#160;&#160;这个问题纠结了我半天，比如有的人说选择tools下的option中的Force <a href="http://...sources">http://&#8230;sources</a> to be fetched using那个选项便可以，然后又有的人说先离线下载那些包再一个个解压放到不同的文件夹下安装。。。反正各种版本我都试了要么费时要么费力，而且大多是不成功的，下载速度也就只有几kb/s，完全没用。。</p>
+
+<p>&#160;&#160;&#160;&#160;&#160;&#160;下面我就讲讲我最后的解决方法，其实很简单，不就那个网站登不上么，大不了换一个啊。。国内镜像网站那么多，哪一个不是好好的，一试，果然速度飞窜，一会儿就解决了我的问题，下载速度大概400-500kb随便有(我的网速为4兆)。。</p>
+
+<p>&#160;&#160;&#160;&#160;&#160;&#160;打开tools下option选项，将HTTP Proxy Server改成你选的镜像地址，然后我选了点击Force <a href="http://...sources">http://&#8230;sources</a> to be fetched using选项，reload之后马上解决。。</p>
+
+<p><br></p>
+
+<ul>
+<li>以下是我选的镜像地址：
+
+<ul>
+<li>mirrors.opencas.cn</li>
+<li>mirrors.neusoft.edu.cn</li>
+</ul>
+</li>
+</ul>
+
+
+<p><br></p>
+
+<p>&#160;&#160;&#160;&#160;&#160;&#160;再提供一个人的博客总结的国内镜像地址大全，在<a href="http://blog.csdn.net/erlanp/article/details/10572215%EF%BC%8C%E5%A4%A7%E5%AE%B6%E5%8F%AF%E4%BB%A5%E5%8E%BB%E7%9C%8B%E7%9C%8B~~">http://blog.csdn.net/erlanp/article/details/10572215%EF%BC%8C%E5%A4%A7%E5%AE%B6%E5%8F%AF%E4%BB%A5%E5%8E%BB%E7%9C%8B%E7%9C%8B~~</a></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>写在前面 - SUNFC</title>
+  <title>Android学习初始关于sdk的安装 - SUNFC</title>
   <meta name="author" content="sunfc">
 
   
-  <meta name="description" content="写在前面 May 14th, 2015 9:51 am 为什么搭建这个博客 &#160; &#160; &#160; &#160;其实刚开始的时候没有想用这个，主要是由于自己刚学了前端的一点知识，想着自己也可以做一个试试，练练手，新手你懂得~~ &#160; &#160; &#160; &# &hellip;">
+  <meta name="description" content="Android学习初始关于sdk的安装 May 15th, 2015 10:26 pm sdk快速安装方法 &#160;&#160;&#160;&#160;&#160;&#160;刚开始安装eclipse的时候一切顺利，然后本地安装adt等也是很简单的事情，一路顺风。。。 &#160;&#160 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://monster-sun.github.io/blog/2015/05/14/preface/">
+  <link rel="canonical" href="http://monster-sun.github.io/blog/2015/05/15/sdk-install/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="SUNFC" type="application/atom+xml">
@@ -76,7 +76,7 @@
   
   <header>
     
-      <h1 class="entry-title">写在前面</h1>
+      <h1 class="entry-title">Android学习初始关于sdk的安装</h1>
     
     
       <p class="meta">
@@ -85,49 +85,43 @@
 
 
 
-<time class='entry-date' datetime='2015-05-14T09:51:11+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>14</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>9:51 am</span></time>
+<time class='entry-date' datetime='2015-05-15T22:26:49+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>10:26 pm</span></time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h3>为什么搭建这个博客</h3>
+<div class="entry-content"><h2>sdk快速安装方法</h2>
 
-<p>&#160; &#160; &#160; &#160;其实刚开始的时候没有想用这个，主要是由于自己刚学了前端的一点知识，想着自己也可以做一个试试，练练手，新手你懂得~~</p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;刚开始安装eclipse的时候一切顺利，然后本地安装adt等也是很简单的事情，一路顺风。。。</p>
 
-<p>&#160; &#160; &#160; &#160;后来做出来了一个，感觉不满意，因为即便我把它上传了也是麻烦，没时间全部在这个地方啊，要博客，出发点是温习一下学的前端知识，可做到现在又想在上面发表一些东西，如果是自己的那个，难不成又要学后端？即便不用后端的话也是很累的，完全没必要啊。。。<!--more-->忽然就想起了前阵子刚开始用的<a href="https://github.com/">github</a>，我当时记得可以用它搭建下octopress博客啊，一来兴趣就花了两天半搞了个这个，深感智商啊，多有不足。。</p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;直到安装sdk的时候出现了点问题，由于网上大多数救急办法最后在我看来真的是纯粹的房费时间，所以自己顺便也记录一下，留待以后回顾.</p>
 
-<p>&#160; &#160; &#160; &#160;我这些时日一般因为是小白，所以笔记都很简单，一些基本知识点，都放在了<a href="http://www.wiz.cn/">为知笔记</a>上面，感觉比印象笔记好一点吧，特别是写代码部分的时候,它支持好多语言的格式，但是转眼一想，有些在学习中遇到的问题，它不在基础知识体系学习的时候，还是需要记下来的，比如安装，比如某点的强化，甚至是自己平时写点小东西（汗）。。。</p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;首先我在安装的时候：下载sdk => 解压 => 点击sdk manager => 会出现自动查找，然后一般应该选择版本安装，但是有个最大的问题就是我们大多数地方访问不了sdk默认的更新地址。。。</p>
 
-<p>&#160; &#160; &#160; &#160;虽然离目前的我还有些距离，但恰逢其会，还是一起弄完的好，我也不喜欢拖拖拉拉的，于是就想着搭建了一个这个博客，以后也算有个窝了，可以写点自己想写的东西，还是那句话，小白多有不足，可要谅解。</p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;这个问题纠结了我半天，比如有的人说选择tools下的option中的Force <a href="http://...sources">http://&#8230;sources</a> to be fetched using那个选项便可以，然后又有的人说先离线下载那些包再一个个解压放到不同的文件夹下安装。。。反正各种版本我都试了要么费时要么费力，而且大多是不成功的，下载速度也就只有几kb/s，完全没用。。</p>
 
-<p>&#160; &#160; &#160; &#160;还是那句话，不论走到哪里，不论学到什么，初心不能忘，这个代码更不能忘，哈哈 ~~</p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;下面我就讲讲我最后的解决方法，其实很简单，不就那个网站登不上么，大不了换一个啊。。国内镜像网站那么多，哪一个不是好好的，一试，果然速度飞窜，一会儿就解决了我的问题，下载速度大概400-500kb随便有(我的网速为4兆)。。</p>
 
-<p><br><br></p>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;打开tools下option选项，将HTTP Proxy Server改成你选的镜像地址，然后我选了点击Force <a href="http://...sources">http://&#8230;sources</a> to be fetched using选项，reload之后马上解决。。</p>
 
-<p>使用Backtick Code Blocks：</p>
+<p><br></p>
 
-<figure class='code'><figcaption><span>Hello World  </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="cp">#include&lt;stdio.h&gt;                       </span>
-</span><span class='line'><span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
-</span><span class='line'>     <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello World!&quot;</span><span class="p">);</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
+<ul>
+<li>以下是我选的镜像地址：
+
+<ul>
+<li>mirrors.opencas.cn</li>
+<li>mirrors.neusoft.edu.cn</li>
+</ul>
+</li>
+</ul>
 
 
-<p></p>
+<p><br></p>
 
-<p>使用基本方法：</p>
-
-<blockquote><pre><code>#include&lt;stdio.h&gt;                       
-int main(){         
-printf("Hello World!");    
-}
-</code></pre></blockquote>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;再提供一个人的博客总结的国内镜像地址大全，在<a href="http://blog.csdn.net/erlanp/article/details/10572215%EF%BC%8C%E5%A4%A7%E5%AE%B6%E5%8F%AF%E4%BB%A5%E5%8E%BB%E7%9C%8B%E7%9C%8B~~">http://blog.csdn.net/erlanp/article/details/10572215%EF%BC%8C%E5%A4%A7%E5%AE%B6%E5%8F%AF%E4%BB%A5%E5%8E%BB%E7%9C%8B%E7%9C%8B~~</a></p>
 </div>
 
 
@@ -148,12 +142,12 @@ printf("Hello World!");
 
 
 
-<time class='entry-date' datetime='2015-05-14T09:51:11+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>14</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>9:51 am</span></time>
+<time class='entry-date' datetime='2015-05-15T22:26:49+08:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>10:26 pm</span></time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/za-ji/'>杂记</a>
+    <a class='category' href='/blog/categories/jiao-cheng/'>教程</a>
   
 </span>
 
@@ -169,8 +163,8 @@ printf("Hello World!");
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2015/05/14/preface/" title="Previous Post: 写在前面">&laquo; 写在前面</a>
       
-        <a class="basic-alignment right" href="/blog/2015/05/15/sdk-install/" title="Next Post: Android学习初始关于sdk的安装">Android学习初始关于sdk的安装 &raquo;</a>
       
     </p>
   </footer>
