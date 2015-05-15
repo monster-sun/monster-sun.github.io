@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 教程 | SUNFC]]></title>
   <link href="http://monster-sun.github.io/blog/categories/jiao-cheng/atom.xml" rel="self"/>
   <link href="http://monster-sun.github.io/"/>
-  <updated>2015-05-15T23:41:54+08:00</updated>
+  <updated>2015-05-15T23:45:40+08:00</updated>
   <id>http://monster-sun.github.io/</id>
   <author>
     <name><![CDATA[sunfc]]></name>
@@ -23,6 +23,9 @@
 <p>&#160;&#160;&#160;&#160;&#160;&#160;刚开始安装eclipse的时候一切顺利，然后本地安装adt等也是很简单的事情，一路顺风。。。</p>
 
 <p>&#160;&#160;&#160;&#160;&#160;&#160;直到安装sdk的时候出现了点问题，由于网上大多数救急办法最后在我看来真的是纯粹的房费时间，所以自己顺便也记录一下，留待以后回顾.</p>
+
+<!--more-->
+
 
 <p>&#160;&#160;&#160;&#160;&#160;&#160;首先我在安装的时候：下载sdk => 解压 => 点击sdk manager => 会出现自动查找，然后一般应该选择版本安装，但是有个最大的问题就是我们大多数地方访问不了sdk默认的更新地址。。。</p>
 
