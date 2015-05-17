@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Hihocoder题目集 | SUNFC]]></title>
   <link href="http://monster-sun.github.io/blog/categories/hihocoderti-mu-ji/atom.xml" rel="self"/>
   <link href="http://monster-sun.github.io/"/>
-  <updated>2015-05-17T10:13:06+08:00</updated>
+  <updated>2015-05-17T10:21:53+08:00</updated>
   <id>http://monster-sun.github.io/</id>
   <author>
     <name><![CDATA[sunfc]]></name>
@@ -25,6 +25,9 @@
 <h3>描述</h3>
 
 <p>求两个整数A+B的和</p>
+
+<!--more-->
+
 
 <h3>输入</h3>
 
