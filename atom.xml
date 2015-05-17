@@ -4,7 +4,7 @@
   <title><![CDATA[SUNFC]]></title>
   <link href="http://monster-sun.github.io/atom.xml" rel="self"/>
   <link href="http://monster-sun.github.io/"/>
-  <updated>2015-05-17T09:33:01+08:00</updated>
+  <updated>2015-05-17T10:13:06+08:00</updated>
   <id>http://monster-sun.github.io/</id>
   <author>
     <name><![CDATA[sunfc]]></name>
@@ -18,55 +18,46 @@
     <link href="http://monster-sun.github.io/blog/2015/05/17/1000/"/>
     <updated>2015-05-17T09:02:44+08:00</updated>
     <id>http://monster-sun.github.io/blog/2015/05/17/1000</id>
-    <content type="html"><![CDATA[<p>时间限制:1000ms
-单点时限:1000ms
+    <content type="html"><![CDATA[<p>时间限制:1000ms  <br/>
+单点时限:1000ms  <br/>
 内存限制:256MB</p>
 
 <h3>描述</h3>
 
-<p>小Hi最近在玩一个字符消除游戏。给定一个只包含大写字母&#8221;ABC&#8221;的字符串s，消除过程是如下进行的：</p>
-
-<p>1)如果s包含长度超过1的由相同字母组成的子串，那么这些子串会被同时消除，余下的子串拼成新的字符串。例如&#8221;ABCCBCCCAA&#8221;中&#8221;CC&#8221;,&ldquo;CCC&#8221;和&#8221;AA&#8221;会被同时消除，余下&#8221;AB&#8221;和&#8221;B&#8221;拼成新的字符串&#8221;ABB&#8221;。</p>
-
-<p>2)上述消除会反复一轮一轮进行，直到新的字符串不包含相邻的相同字符为止。例如”ABCCBCCCAA”经过一轮消除得到&#8221;ABB&#8221;，再经过一轮消除得到&#8221;A&#8221;</p>
-
-<p>游戏中的每一关小Hi都会面对一个字符串s。在消除开始前小Hi有机会在s中任意位置(第一个字符之前、最后一个字符之后以及相邻两个字符之间)插入任意一个字符(&lsquo;A&rsquo;,&lsquo;B&#8217;或者&#8217;C&rsquo;)，得到字符串t。t经过一系列消除后，小Hi的得分是消除掉的字符的总数。</p>
-
-<p>请帮助小Hi计算要如何插入字符，才能获得最高得分。</p>
+<p>求两个整数A+B的和</p>
 
 <h3>输入</h3>
 
-<p>输入第一行是一个整数T(1&lt;=T&lt;=100)，代表测试数据的数量。</p>
-
-<p>之后T行每行一个由&#8217;A&#8217;&lsquo;B&rsquo;&lsquo;C&#8217;组成的字符串s，长度不超过100。</p>
+<p>输入包含多组数据。
+每组数据包含两个整数A(1 ≤ A ≤ 100)和B(1 ≤ A ≤ 100)。</p>
 
 <h3>输出</h3>
 
-<p>对于每一行输入的字符串，输出小Hi最高能得到的分数。</p>
-
-<h3>提示</h3>
-
-<p>第一组数据：在&#8221;ABCBCCCAA&#8221;的第2个字符后插入&#8217;C&#8217;得到&#8221;ABCCBCCCAA&#8221;，消除后得到&#8221;A&#8221;，总共消除9个字符(包括插入的&#8217;C&#8217;)。</p>
-
-<p>第二组数据：&#8221;AAA&#8221;插入&#8217;A&#8217;得到&#8221;AAAA&#8221;，消除后得到&#8221;&ldquo;，总共消除4个字符。</p>
-
-<p>第三组数据：无论是插入字符后得到&#8221;AABC&#8221;,&ldquo;ABBC&#8221;还是&#8221;ABCC&#8221;都最多消除2个字符。</p>
+<p>对于每组数据输出A+B的和。</p>
 
 <h3>样例输入</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>3
-</span><span class='line'>ABCBCCCAA      
-</span><span class='line'>AAA
-</span><span class='line'>ABC</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>1 2
+</span><span class='line'>3 4</span></code></pre></td></tr></table></div></figure>
 
 
 <h3>样例输出</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>3
+</span><span class='line'>7</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p><br></p>
+
+<h2>我的提交：</h2>
+
+<figure class='code'><figcaption><span>1000-answer  </span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
@@ -74,39 +65,36 @@
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
 <span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>9
-</span><span class='line'>4
-</span><span class='line'>2```
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="err">#</span><span class="n">include</span><span class="o">&lt;</span><span class="n">stdio</span><span class="o">.</span><span class="na">h</span><span class="o">&gt;</span>
 </span><span class='line'>
+</span><span class='line'><span class="kt">int</span> <span class="nf">main</span><span class="o">(</span><span class="kt">void</span><span class="o">){</span>
 </span><span class='line'>
-</span><span class='line'>&lt;br&gt;
+</span><span class='line'>    <span class="kt">int</span> <span class="n">a</span><span class="o">,</span><span class="n">b</span><span class="o">;</span>
 </span><span class='line'>
-</span><span class='line'>##我的提交：     </span></code></pre></td></tr></table></div></figure>
+</span><span class='line'>    <span class="k">while</span><span class="o">(</span> <span class="n">scanf</span><span class="o">(</span><span class="s">&quot;%d %d&quot;</span><span class="o">,&amp;</span><span class="n">a</span><span class="o">,&amp;</span><span class="n">b</span><span class="o">)</span> <span class="o">==</span> <span class="mi">2</span><span class="o">){</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">if</span><span class="o">(</span><span class="n">a</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">a</span> <span class="o">&gt;</span> <span class="mi">100</span><span class="o">)</span>    <span class="k">break</span><span class="o">;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="k">if</span><span class="o">(</span><span class="n">a</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">b</span> <span class="o">&gt;</span> <span class="mi">100</span><span class="o">)</span>    <span class="k">break</span><span class="o">;</span>
+</span><span class='line'>
+</span><span class='line'>        <span class="n">printf</span><span class="o">(</span><span class="s">&quot;%d\n&quot;</span><span class="o">,</span><span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="o">);</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="k">return</span> <span class="mi">0</span><span class="o">;</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
 
-
-<p> c 1000-answer</p>
-
-<h1>include&lt;stdio.h></h1>
-
-<p>int main(void){</p>
-
-<pre><code>int a,b;
-
-while( scanf("%d %d",&amp;a,&amp;b) == 2){
-
-    if(a &lt; 0 || a &gt; 100)    break;
-
-    if(a &lt; 0 || b &gt; 100)    break;
-
-    printf("%d\n",a+b);
-
-}
-
-return 0;
-</code></pre>
-
-<p>}
-&#8220;`</p>
 ]]></content>
   </entry>
   
