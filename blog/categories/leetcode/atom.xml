@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Leetcode | SUNFC]]></title>
+  <link href="http://monster-sun.github.io/blog/categories/leetcode/atom.xml" rel="self"/>
+  <link href="http://monster-sun.github.io/"/>
+  <updated>2015-06-29T18:57:22+08:00</updated>
+  <id>http://monster-sun.github.io/</id>
+  <author>
+    <name><![CDATA[sunfc]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Two Sum]]></title>
+    <link href="http://monster-sun.github.io/blog/2015/06/29/two-sum/"/>
+    <updated>2015-06-29T18:13:09+08:00</updated>
+    <id>http://monster-sun.github.io/blog/2015/06/29/two-sum</id>
+    <content type="html"><![CDATA[<h2>Two Sum</h2>
+
+<p>Given an array of integers, find two numbers such that they add up to a specific target number.</p>
+
+<p>The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.</p>
+
+<p>You may assume that each input would have exactly one solution.</p>
+
+<pre><code>Input: numbers={2, 7, 11, 15}, target=9         
+
+Output: index1=1, index2=2
+</code></pre>
+
+<h3>第一次解决如下：</h3>
+
+<pre><code>public class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int[] a=new int[2];
+        for(int i=0;i&lt;nums.length;i++){
+            for(int j=i+1;j&lt;nums.length;j++){
+                if(nums[i]+nums[j]==target){
+                    a[0]=i+1;
+                    a[1]=j+1;
+                }
+            }
+        }
+        return a;
+    }
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
