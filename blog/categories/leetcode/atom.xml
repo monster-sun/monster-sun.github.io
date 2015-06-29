@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Leetcode | SUNFC]]></title>
   <link href="http://monster-sun.github.io/blog/categories/leetcode/atom.xml" rel="self"/>
   <link href="http://monster-sun.github.io/"/>
-  <updated>2015-06-29T18:57:22+08:00</updated>
+  <updated>2015-06-29T19:01:24+08:00</updated>
   <id>http://monster-sun.github.io/</id>
   <author>
     <name><![CDATA[sunfc]]></name>
@@ -21,6 +21,9 @@
     <content type="html"><![CDATA[<h2>Two Sum</h2>
 
 <p>Given an array of integers, find two numbers such that they add up to a specific target number.</p>
+
+<!--more-->
+
 
 <p>The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.</p>
 
